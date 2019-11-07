@@ -3,6 +3,7 @@
     {
         "**/.DS_Store":true,
         "**/.git":true,
+        "**/.gitignore":true,
         "**/.gitmodules":true,
         "**/*.booproj":true,
         "**/*.pidb":true,
@@ -42,17 +43,14 @@
         "**/*.meta":true,
         "**/*.prefab":true,
         "**/*.unity":true,
+        "build/":true,
+        "Build/":true,
+        "Library/":true,
+        "library/":true,
+        "obj/":true,
+        "Obj/":true,
         "ProjectSettings/":true,
-        // Modified
-        "[Bb]uild/":true,
-        // "[Ll]ibrary/":true,
-        "[Oo]bj/":true,
-        "[Tt]emp/":true,
-        // "[Aa]ssets/[Ss]cenes": true,
-        // Added
-        "**/*.csproj": true,
-        "**/*.sln": true,
-        // "[Pp]ackages/": true,
-        "[Ll]ogs/": true
+        "temp/":true,
+        "Temp/":true
     }
 }
